@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<MenuBar xmlns:fx="http://javafx.com/fxml" fx:controller="com.phimes.casaxbase.MenuBarController">
+    <menus>
+        <!-- File Menu -->
+        <Menu text="File">
+            <items>
+                <MenuItem text="Import" onAction="#handleMenuItemAction" />
+                <MenuItem text="Export" onAction="#handleMenuItemAction" />
+            </items>
+        </Menu>
+
+        <!-- Help Menu -->
+        <Menu text="Help">
+            <items>
+                <MenuItem text="About" />
+            </items>
+        </Menu>
+    </menus>
+</MenuBar>

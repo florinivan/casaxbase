@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.phimes.casaxbase.LoadcsvController">
+    <Button text="Load CSV" onAction="#loadCSVFile" />
+    <TextArea fx:id="csvTextArea" editable="false" />
+</VBox>
